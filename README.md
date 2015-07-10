@@ -1,5 +1,4 @@
-# Web Identity Providers Step by Step Guide
-# Using Facebook Login To Authenticate DynamoDB
+# Web Identity Providers Step by Step Guide Using Facebook Login To Authenticate DynamoDB
 
  Hello everyone, I am Kerem. In this post I want to cover how you can architect your apps to use DynamoDB. The browsers or mobile clients can store or read the data directly to DynamoDb by using the Web Identity Providers. You can authenticate users Web Identity Providers(such as Facebook, Google, Amazon or any other Open-Id connect compatible Identity provider). Also It is a temporary access service.
 
