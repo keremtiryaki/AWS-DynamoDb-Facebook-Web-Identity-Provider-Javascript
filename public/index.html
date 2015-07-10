@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>AWS Web Identity Providers(facebook) to connect DynamoDB</title>
+		<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.38.min.js"></script>
+		<script src="aws.js"></script>
+	</head>
+	<body>
+		<script src="facebook.js"></script>
+
+		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+
+		<div id="status"></div>
+
+	</body>
+</html>
